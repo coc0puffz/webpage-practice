@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Animal: Cat</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #330033;
+            animation: fadeIn 2s;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+            margin: 20px;
+            transition: transform 0.3s;
+        }
+        p:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        button {
+            background-color: #FFCC00;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #FF9900;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorite Animal: The Cat</h1>
+    <img src="https://example.com/your-cat-image.jpg" alt="Cute Cat">
+    <p>Cats are my favorite animal because they are playful, independent, and incredibly cuddly. They can brighten your day with their purrs and quirky personalities!</p>
+    <button id="funFactButton">Click for a Fun Fact!</button>
+
+    <script>
+        document.getElementById("funFactButton").onclick = function() {
+            alert("Did you know? Cats can make over 100 different sounds!");
+        };
+    </script>
+</body>
+</html>
