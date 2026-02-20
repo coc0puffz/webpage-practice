@@ -55,13 +55,13 @@
 </head>
 <body>
     <h1>My Favorite Animal: The Cat</h1>
-    <img src="https://example.com/your-cat-image.jpg" alt="Cute Cat">
-    <p>Cats are my favorite animal because they are playful, independent, and incredibly cuddly. They can brighten your day with their purrs and quirky personalities!</p>
+    <img src="white-cat-lies-woman-s-knees.jpg" alt="Cute Cat">
+    <p>Cats are my favourite animal because they don't care about what people think. I wanna be like a cat</p>
     <button id="funFactButton">Click for a Fun Fact!</button>
 
     <script>
         document.getElementById("funFactButton").onclick = function() {
-            alert("Did you know? Cats can make over 100 different sounds!");
+            alert("Did you know? Cats used to be worshipped in ancient Egypt.");
         };
     </script>
 </body>
